@@ -1,0 +1,20 @@
+.section-bg-1::after{
+  background-image: url(Img/li-yang-5h_dMuX_7RE-unsplash.jpg);
+}
+
+
+.section-bg-1 {
+  position: relative;
+}
+
+.section-bg-1::after {
+  background-position: center;
+  background-size: cover;
+  background-color: #ddd;
+  height: 100%;
+  width: 50%;
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
